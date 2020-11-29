@@ -1,3 +1,14 @@
+a = int(input())
+b = int(input())
+c = a + b
+print(c)
+
+hours_worked = int(input())
+if hours_worked > 40:
+    print("Overtime pay")
+else:
+    print("Regular pay")
+
 print(10 / 3)
 print(10 // 3)
 print(10 ** 3)
